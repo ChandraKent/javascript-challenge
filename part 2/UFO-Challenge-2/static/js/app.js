@@ -1,5 +1,5 @@
 // **UFO-level-2**
-// ### Level 2: Multiple Search Categories (Optional)
+// ### Level 2: Multiple Search Categories (Required)
 
 // * Complete all of Level 1 criteria.
 
@@ -25,8 +25,7 @@ function buildTable(tableData) {
 // Clear out any existing data
 tbody.html("");
 
-// Loop through each object in tableData
-// and append rows and cells for each value
+// Loop through each object in tableData and append rows
 tableData.forEach((dataRow) => {
 // Append a row to the table body
 var row = tbody.append("tr");
